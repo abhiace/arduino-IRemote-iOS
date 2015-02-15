@@ -1,4 +1,4 @@
-# ardu-IRemote-iOS
+# arduino-IRemote-iOS
 Arduino based IR remote control with enc28j60 and ios app to control it.
 
 The code to be uploaded on the Arduino lies in arduIRemote.ino. It uses IR signals to control devices that rely on IR for control, in my case my TataSky STB and my NAD AMP. The IR codes that have to be used can be availed using an IR Receiver and pointing the remote control towards it. Once a button is pressed, the IRemote library is used to decode it. The irrecvDump.ino file can be used for the same. Btw, the decoded codes appear on the serial monitor in the arduino IDE.
